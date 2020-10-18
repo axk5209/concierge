@@ -483,7 +483,7 @@ img {
     background: -webkit-linear-gradient(to right, #d42828, #921414);
     background: -webkit-linear-gradient(left, #d42828, #921414);
     background: linear-gradient(to right, #d42828, #921414);
-    opacity: 0.8;
+    opacity: 0.5;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 
