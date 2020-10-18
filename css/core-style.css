@@ -53,14 +53,14 @@ h3,
 h4,
 h5,
 h6 {
-    color: #262626;
+    color: #1a254d;
     line-height: 1.2;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
 p {
-    color: #7f7e7e;
+    color: #546483;
     font-size: 14px;
     line-height: 2;
     font-family: 'Montserrat', sans-serif;
@@ -454,10 +454,10 @@ img {
 }
 
 .gradient-background {
-    background: #243eff;
-    background: -webkit-linear-gradient(to right, #3de6fa, #243eff);
-    background: -webkit-linear-gradient(left, #3de6fa, #243eff);
-    background: linear-gradient(to right, #3de6fa, #243eff);
+    background: #d42828;
+    background: -webkit-linear-gradient(to right, #d42828, #921414);
+    background: -webkit-linear-gradient(left, #d42828, #921414);
+    background: linear-gradient(to right, #d42828, #921414);
 }
 
 .gradient-background-overlay,
@@ -479,16 +479,16 @@ img {
     z-index: -1;
     top: 0;
     left: 0;
-    background: #243eff;
-    background: -webkit-linear-gradient(to right, #3de6fa, #243eff);
-    background: -webkit-linear-gradient(left, #3de6fa, #243eff);
-    background: linear-gradient(to right, #3de6fa, #243eff);
+    background: #d42828;
+    background: -webkit-linear-gradient(to right, #d42828, #921414);
+    background: -webkit-linear-gradient(left, #d42828, #921414);
+    background: linear-gradient(to right, #d42828, #921414);
     opacity: 0.8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 
 .background-overlay:after {
-    background: rgba(36, 62, 255, 0.8);
+    background: #921414;
 }
 
 .nicescroll-rails {
@@ -1477,7 +1477,7 @@ textarea.form-control {
 }
 
 .single-accordion h6 a {
-    background-color: #1d1d1d;
+    background-color: #273c83;
     border-radius: 0;
     color: #fff;
     display: block;
