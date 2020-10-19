@@ -454,10 +454,10 @@ img {
 }
 
 .gradient-background {
-    background: #d42828;
-    background: -webkit-linear-gradient(to right, #d42828, #921414);
-    background: -webkit-linear-gradient(left, #d42828, #921414);
-    background: linear-gradient(to right, #d42828, #921414);
+    background: #851b1b;
+    background: -webkit-linear-gradient(to right, #851b1b, #300303);
+    background: -webkit-linear-gradient(left, #851b1b, #300303);
+    background: linear-gradient(to right, #851b1b, #300303);
 }
 
 .gradient-background-overlay,
@@ -479,16 +479,16 @@ img {
     z-index: -1;
     top: 0;
     left: 0;
-    background: #d42828;
-    background: -webkit-linear-gradient(to right, #d42828, #921414);
-    background: -webkit-linear-gradient(left, #d42828, #921414);
-    background: linear-gradient(to right, #d42828, #921414);
-    opacity: 0.5;
+    background: #851b1b;
+    background: -webkit-linear-gradient(to right, #851b1b, #300303);
+    background: -webkit-linear-gradient(left, #851b1b, #300303);
+    background: linear-gradient(to right, #851b1b, #300303);
+    opacity: 0.8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 
 .background-overlay:after {
-    background: #921414;
+    background: #300303;
 }
 
 .nicescroll-rails {
@@ -1140,7 +1140,7 @@ select.form-control:not([size]):not([multiple]) {
 .widget-post-content > p {
     margin-bottom: 0;
     font-size: 11px;
-    color: #2f88fd;
+    color: #4559b4;
 }
 
 .footer-widget-area ul > li > a {
