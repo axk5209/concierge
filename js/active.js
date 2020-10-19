@@ -128,25 +128,25 @@
         $('#bar1').barfiller({
             tooltip: true,
             duration: 1000,
-            barColor: '#2f88fd',
+            barColor: '#2e49c2',
             animateOnResize: true
         });
         $('#bar2').barfiller({
             tooltip: true,
             duration: 1000,
-            barColor: '#2f88fd',
+            barColor: '#2e49c2',
             animateOnResize: true
         });
         $('#bar3').barfiller({
             tooltip: true,
             duration: 1000,
-            barColor: '#2f88fd',
+            barColor: '#2e49c2',
             animateOnResize: true
         });
         $('#bar4').barfiller({
             tooltip: true,
             duration: 1000,
-            barColor: '#2f88fd',
+            barColor: '#2e49c2',
             animateOnResize: true
         });
     }

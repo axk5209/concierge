@@ -79,7 +79,7 @@ a:focus {
     text-decoration: none;
     outline: none;
     font-size: 14px;
-    color: #5f5f5f;
+    color: #4e4e4e;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
@@ -146,7 +146,7 @@ img {
     -webkit-animation: 2000ms linear 0s normal none infinite running medica-load;
     animation: 2000ms linear 0s normal none infinite running medica-load;
     background: transparent none repeat scroll 0 0;
-    border-color: #ffffff #ffffff #2f88fd;
+    border-color: #ffffff #ffffff #2e49c2;
     border-radius: 50%;
     border-style: solid;
     border-width: 2px;
@@ -424,14 +424,14 @@ img {
 
 .medica-btn.btn-2 {
     color: #fff;
-    background-color: #2f88fd;
-    border-color: #2f88fd;
+    background-color: #2e49c2;
+    border-color: #2e49c2;
 }
 
 .medica-btn.btn-3 {
-    color: #2f88fd;
+    color: #2e49c2;
     background-color: #fff;
-    border-color: #2f88fd;
+    border-color: #2e49c2;
 }
 
 .medica-btn.btn-4 {
@@ -441,7 +441,7 @@ img {
 }
 
 .medica-btn.btn-5 {
-    color: #2f88fd;
+    color: #2e49c2;
     background-color: #262626;
     border-color: #262626;
 }
@@ -449,8 +449,8 @@ img {
 .medica-btn:hover,
 .medica-btn:focus {
     color: #fff;
-    background-color: #2f88fd;
-    border-color: #2f88fd;
+    background-color: #2e49c2;
+    border-color: #2e49c2;
 }
 
 .gradient-background {
@@ -553,7 +553,7 @@ img {
 #searchbtn {
     cursor: pointer;
     margin-left: 15px;
-    color: #2f88fd;
+    color: #2e49c2;
 }
 
 .header-search-form,
@@ -569,7 +569,7 @@ img {
     font-size: 14px;
     text-transform: uppercase;
     padding: 0 20px;
-    color: #5f5f5f;
+    color: #4e4e4e;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
@@ -577,7 +577,7 @@ img {
 .header-area .main-menu .nav-item.active .nav-link,
 .header-area .main-menu .nav-link:hover,
 .header-area .main-menu .nav-link:focus {
-    color: #2f88fd;
+    color: #2e49c2;
 }
 
 .dropdown-menu.show {
@@ -591,13 +591,13 @@ img {
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: #5f5f5f;
+    color: #4e4e4e;
     text-transform: uppercase;
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-    color: #2f88fd;
+    color: #2e49c2;
     font-size: 13px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
@@ -612,7 +612,7 @@ img {
     color: #fff;
     border: none;
     background-color: transparent;
-    border: 2px solid #2f88fd;
+    border: 2px solid #2e49c2;
     border-radius: 4px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -621,7 +621,7 @@ img {
 
 .header-search-form form input:focus {
     box-shadow: none;
-    border-color: #2f88fd;
+    border-color: #2e49c2;
     background-color: transparent;
 }
 
@@ -758,7 +758,7 @@ img {
 
 .medica-doctors-card,
 .medica-department-card {
-    background-color: #2f88fd;
+    background-color: #2e49c2;
 }
 
 .medica-appointment-card {
@@ -767,7 +767,7 @@ img {
 }
 
 .medica-contact-card {
-    background-color: #093f86;
+    background-color: #2e49c2;
 }
 
 .latest-news-widget-area,
@@ -810,7 +810,7 @@ img {
 .medica-appointment-card .form-control {
     width: 100%;
     height: 40px;
-    background-color: #2f88fd;
+    background-color: #2e49c2;
     border: none;
     border-radius: 0;
     font-size: 12px;
@@ -879,8 +879,8 @@ select.form-control:not([size]):not([multiple]) {
 .catagories-menu li a:hover,
 .catagories-menu li a:focus {
     padding-left: 20px;
-    border-bottom: 1px solid #2f88fd;
-    color: #2f88fd;
+    border-bottom: 1px solid #2e49c2;
+    color: #2e49c2;
 }
 
 .department-menu li:last-child a,
@@ -897,7 +897,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .medica-about-text h2 span {
-    background-color: #2f88fd;
+    background-color: #2e49c2;
     color: #fff;
     padding: 2px;
 }
@@ -934,7 +934,7 @@ select.form-control:not([size]):not([multiple]) {
     left: 0;
     width: 8px;
     height: 8px;
-    background-color: #2f88fd;
+    background-color: #2e49c2;
     border-radius: 50%;
     content: '';
 }
@@ -998,9 +998,9 @@ select.form-control:not([size]):not([multiple]) {
     display: inline-block;
     width: 33px;
     height: 33px;
-    color: #2f88fd;
+    color: #2e49c2;
     border-radius: 50%;
-    border: 2px solid #2f88fd;
+    border: 2px solid #2e49c2;
     line-height: 29px;
     font-size: 13px;
     margin: 0 5px;
@@ -1009,8 +1009,8 @@ select.form-control:not([size]):not([multiple]) {
 .doctor-social-info a:hover,
 .doctor-social-info a:focus {
     color: #fff;
-    border-color: #2f88fd;
-    background-color: #2f88fd;
+    border-color: #2e49c2;
+    background-color: #2e49c2;
 }
 
 .doctor-social-info {
@@ -1140,7 +1140,7 @@ select.form-control:not([size]):not([multiple]) {
 .widget-post-content > p {
     margin-bottom: 0;
     font-size: 11px;
-    color: #4559b4;
+    color: #2e49c2;
 }
 
 .footer-widget-area ul > li > a {
@@ -1153,7 +1153,7 @@ select.form-control:not([size]):not([multiple]) {
 .footer-widget-area ul > li > a:focus,
 .footer-social-info a:hover,
 .footer-social-info a:focus {
-    color: #2f88fd;
+    color: #2e49c2;
 }
 
 .bottom-footer-area {
@@ -1170,7 +1170,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .copywrite-text p a {
-    color: #2f88fd;
+    color: #2e49c2;
     font-weight: 600;
 }
 
@@ -1193,7 +1193,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .footer-menu li a:hover,
 .footer-menu li a:focus {
-    color: #2f88fd;
+    color: #2e49c2;
 }
 
 /* :: 13.0 Breadcumb Area CSS */
@@ -1271,7 +1271,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .single-department-area:hover > h6,
 .single-department-area:focus > h6 {
-    color: #2f88fd;
+    color: #2e49c2;
 }
 
 /* :: 16.0 Services Area CSS */
@@ -1293,7 +1293,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .single-service a {
-    color: #2f88fd;
+    color: #2e49c2;
     display: block;
     font-weight: 600;
 }
@@ -1326,7 +1326,7 @@ select.form-control:not([size]):not([multiple]) {
 .post-date > a {
     width: 125px;
     height: 38px;
-    background-color: #2f88fd;
+    background-color: #2e49c2;
     display: block;
     color: #fff;
     line-height: 38px;
@@ -1352,7 +1352,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .post-content > a,
 .post-meta p a {
-    color: #2f88fd;
+    color: #2e49c2;
 }
 
 .post-meta p:last-of-type a,
@@ -1388,9 +1388,9 @@ select.form-control:not([size]):not([multiple]) {
 .pagination .active .page-link,
 .pagination .page-link:hover,
 .pagination .page-link:focus {
-    color: #2f88fd;
+    color: #2e49c2;
     background-color: #fff;
-    border: 2px solid #2f88fd;
+    border: 2px solid #2e49c2;
 }
 
 /* :: 18.0 Contact Area CSS */
@@ -1477,7 +1477,7 @@ textarea.form-control {
 }
 
 .single-accordion h6 a {
-    background-color: #273c83;
+    background-color: #1c2a5a;
     border-radius: 0;
     color: #fff;
     display: block;
@@ -1490,7 +1490,7 @@ textarea.form-control {
 }
 
 .single-accordion h6 a.collapsed {
-    background-color: #2f88fd;
+    background-color: #2e49c2;
     color: #fff;
 }
 
@@ -1561,7 +1561,7 @@ span.accor-open {
     position: relative;
     width: 0px;
     height: 100%;
-    background-color: #2f88fd;
+    background-color: #2e49c2;
     z-index: 1;
 }
 
@@ -1575,7 +1575,7 @@ span.accor-open {
     left: 0px;
     position: absolute;
     z-index: 2;
-    background-color: #2f88fd;
+    background-color: #2e49c2;
     color: #fff;
     width: 60px;
     height: 32px;
@@ -1607,7 +1607,7 @@ span.accor-open {
 }
 
 .single-cool-fact-area h2 {
-    color: #2f88fd;
+    color: #2e49c2;
     font-size: 36px;
 }
 
