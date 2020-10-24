@@ -1324,7 +1324,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .single-department-area > img {
     margin-bottom: 20px;
-    height: 60px;
+    height: 80px;
     width: auto;
 }
 
@@ -1333,6 +1333,14 @@ select.form-control:not([size]):not([multiple]) {
     margin-bottom: 0;
     -webkit-transition-duration: 500ms;
             transition-duration: 500ms;
+}
+.single-department-area h4 {
+	color: white;
+
+}
+.single-department-area h6 {
+	color: white;
+
 }
 
 .single-department-area:hover > h6,
