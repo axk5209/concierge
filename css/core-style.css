@@ -44,21 +44,27 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+	font-weight: 400;
+	background-color: #f4f8fac5;
 }
 
 h1,
 h2,
 h3,
 h4,
-h5,
+h5
+{
+    color: #1e84ba;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
 h6 {
     color: #1a254d;
     line-height: 1.2;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
-
 p {
     color: #546483;
     font-size: 14px;
@@ -454,10 +460,37 @@ img {
 }
 
 .gradient-background {
-    background: #851b1b;
-    background: -webkit-linear-gradient(to right, #851b1b, #300303);
-    background: -webkit-linear-gradient(left, #851b1b, #300303);
-    background: linear-gradient(to right, #851b1b, #300303);
+    background: #ffe7e7;
+    background: -webkit-linear-gradient(to right, #ffe7e7, #ffffff);
+    background: -webkit-linear-gradient(left, #ffe7e7, #ffffff);
+    background: linear-gradient(to right, #ffe7e7, #ffffff);
+}
+
+.gradient-background-overlay-services,
+.background-overlay-services-services {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gradient-background-overlay-services:after,
+.background-overlay-services:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: #ffe7e7;
+    background: -webkit-linear-gradient(to right, #ffe7e7, #ffffff);
+    background: -webkit-linear-gradient(left, #ffe7e7, #ffffff);
+    background: linear-gradient(to right, #ffe7e7, #ffffff);
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 
 .gradient-background-overlay,
@@ -479,16 +512,16 @@ img {
     z-index: -1;
     top: 0;
     left: 0;
-    background: #851b1b;
-    background: -webkit-linear-gradient(to right, #851b1b, #300303);
-    background: -webkit-linear-gradient(left, #851b1b, #300303);
-    background: linear-gradient(to right, #851b1b, #300303);
+    background: #ffe7e7;
+    background: -webkit-linear-gradient(to right, #ffe7e7, #ffffff);
+    background: -webkit-linear-gradient(left, #ffe7e7, #ffffff);
+    background: linear-gradient(to right, #ffe7e7, #ffffff);
     opacity: 0.8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
 
 .background-overlay:after {
-    background: #300303;
+    background: #ffffff;
 }
 
 .nicescroll-rails {
@@ -542,7 +575,7 @@ img {
 .is-sticky .main-header-area {
     width: 100%;
     z-index: 10000 !important;
-    background-color: #ffffff;
+    background-color: #f4f8fa;
     box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -569,7 +602,7 @@ img {
     font-size: 14px;
     text-transform: uppercase;
     padding: 0 20px;
-    color: #4e4e4e;
+    color: #2e49c2;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
@@ -577,7 +610,7 @@ img {
 .header-area .main-menu .nav-item.active .nav-link,
 .header-area .main-menu .nav-link:hover,
 .header-area .main-menu .nav-link:focus {
-    color: #2e49c2;
+    color: #c00000;
 }
 
 .dropdown-menu.show {
@@ -591,13 +624,13 @@ img {
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: #4e4e4e;
+    color: #2e49c2;
     text-transform: uppercase;
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-    color: #2e49c2;
+    color: #c00000;
     font-size: 13px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
@@ -1013,27 +1046,35 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .single-service-area {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .single-service-area img {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .single-service-area h5 {
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .single-service-area h4 {
-    color: #fff;
-    margin-bottom: 30px;
+    color: #1a254d;
+	margin-bottom: 30px;
+	max-width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
-.single-service-area p {
-	color: #fff;
+.single-service-area h2 {
+	color: #1e84ba;
+}
+
+/* .single-service-area p {
+	color: #000;
 	font-weight: 500;
 	margin-bottom: 0;
-	max-width: 95%;
-}
+	max-width: 50%;
+} */
 /* :: 8.0 Doctor Area CSS */
 
 .single-doctor-area {
@@ -1223,7 +1264,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .bottom-footer-area {
-    background-color: #0b131e;
+    background-color: #e9eef0c5;
     width: 100%;
     height: 55px;
     position: relative;
@@ -1273,8 +1314,8 @@ select.form-control:not([size]):not([multiple]) {
 
 .breadcumb-title {
     font-size: 30px;
-    font-weight: 600;
-    color: #fff;
+    font-weight: 800;
+    color: #c22727;
     text-transform: uppercase;
 }
 
