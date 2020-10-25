@@ -451,12 +451,23 @@ img {
     background-color: #262626;
     border-color: #262626;
 }
+.medica-btn.btn-6 {
+    color: #0464d3;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #0464d3;
+}
+.medica-btn.btn-7 {
+    color: #fff;
+    background-color: #0464d3;
+    border-color: #0464d3;
+}
+
 
 .medica-btn:hover,
 .medica-btn:focus {
     color: #fff;
-    background-color: #2e49c2;
-    border-color: #2e49c2;
+    background-color: #0472f0c0;
+    border-color: #0472f0c0;
 }
 
 .gradient-background {
@@ -602,7 +613,7 @@ img {
     font-size: 14px;
     text-transform: uppercase;
     padding: 0 20px;
-    color: #2e49c2;
+    color: #1069a5;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
@@ -610,7 +621,7 @@ img {
 .header-area .main-menu .nav-item.active .nav-link,
 .header-area .main-menu .nav-link:hover,
 .header-area .main-menu .nav-link:focus {
-    color: #c00000;
+    color: rgb(230, 40, 40);
 }
 
 .dropdown-menu.show {
@@ -624,13 +635,13 @@ img {
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: #2e49c2;
+    color: #1069a5;
     text-transform: uppercase;
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-    color: #c00000;
+    color: rgb(230, 40, 40);
     font-size: 13px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
@@ -800,7 +811,7 @@ img {
 }
 
 .medica-contact-card {
-    background-color: #2e49c2;
+    background-color: #0479ffc4;
 }
 
 .latest-news-widget-area,
@@ -1315,7 +1326,7 @@ select.form-control:not([size]):not([multiple]) {
 .breadcumb-title {
     font-size: 30px;
     font-weight: 800;
-    color: #c22727;
+    color: rgb(230, 40, 40);
     text-transform: uppercase;
 }
 
@@ -1592,7 +1603,7 @@ textarea.form-control {
 }
 
 .single-accordion h6 a {
-    background-color: #1c2a5a;
+    background-color: #1c60a0;
     border-radius: 0;
     color: #fff;
     display: block;
@@ -1605,7 +1616,7 @@ textarea.form-control {
 }
 
 .single-accordion h6 a.collapsed {
-    background-color: #2e49c2;
+    background-color: #2f88fd;
     color: #fff;
 }
 
