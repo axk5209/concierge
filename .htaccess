@@ -1,0 +1,10 @@
+RewriteEngine on
+
+# Rewrite requests ending in a slash to show the html file
+RewriteRule ^(.+)/$ $1.html    
+
+# If the request uri doesn't end in .html...
+RewriteCond %{REQUEST_URI} !\.(html?)$
+
+# ...rewrite requests that don't end in a slash so that they do end in a slash
+RewriteRule ^(.*)([^/])$ /$1$2/ [R=303]

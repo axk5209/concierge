@@ -784,6 +784,11 @@ img {
     color: #6c6c6c;
 }
 
+.contact-meta h6 {
+    margin: 0;
+    color: #6c6c6c;
+}
+
 .medica-emergency-card,
 .medica-doctors-card,
 .medica-appointment-card,
@@ -913,6 +918,11 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .medica-contact-card .contact-meta p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.medica-contact-card .contact-meta h6 {
     color: #fff;
     font-size: 13px;
 }

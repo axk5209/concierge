@@ -43,7 +43,7 @@ function submitContactForm (event) {
 		Host : "smtp.gmail.com",
 		Username : "renalcarelandingpage@gmail.com",
 		Password : "Renal@Texas2020",
-		To : 'axk45209@gmail.com',
+		To : 'info@firstmdvip.com',
 		From : "renalcarelandingpage@gmail.com",
 		Subject : "Landing Page Contact Request",
 		Body : body
