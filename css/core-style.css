@@ -45,7 +45,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
-	background-color: #f4f8fac5;
+	background-color: #fafaf4c5;
 }
 
 h1,
@@ -527,10 +527,10 @@ img {
     z-index: -1;
     top: 0;
     left: 0;
-    background: #f8dace;
-    background: -webkit-linear-gradient(to right, #f8dace, #dee7d9);
-    background: -webkit-linear-gradient(left, #f8dace, #dee7d9);
-    background: linear-gradient(to right, #f8dace, #dee7d9);
+    background: #ffdeb2;
+    background: -webkit-linear-gradient(to right, #ffdeb2, #e4eedf);
+    background: -webkit-linear-gradient(left, #ffdeb2, #e4eedf);
+    background: linear-gradient(to right, #ffdeb2, #e4eedf);
     opacity: 0.8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 }
