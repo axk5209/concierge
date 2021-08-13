@@ -42,12 +42,13 @@ function submitContactForm (event) {
 	Email.send({
 		Host : "smtp.gmail.com",
 		Username : "renalcarelandingpage@gmail.com",
-		Password : "Renal@Texas2020",
+		Password : "Renal@Texas2021",
 		To : 'info@firstmdvip.com',
 		From : "renalcarelandingpage@gmail.com",
 		Subject : "Landing Page Contact Request",
 		Body : body
-	}).then(() => {
+	}).then((res) => {
+		console.log(res)
 		name.value = ""
 		email.value = ""
 		phone.value = ""
@@ -56,5 +57,7 @@ function submitContactForm (event) {
 		submitButton.innerText = "Submit"
 		submitButton.disabled = false
 	}
-	);
+	).catch((res) => {
+		console.log(res)
+	});
 }
